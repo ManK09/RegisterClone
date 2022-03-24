@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+<body>
+    <div class="content">
+        <div class="topbar">
+            <div class="top-nav-sidebar">
+                <i class="fas fa-history"></i>
+            </div>
+            <div class="top-nav-search-bar">
+                <input placeholder="Search whitehatjunior"/>
+            </div>
+            <div class="top-nav-help">
+                <i class="far fa-question-circle"></i>
+            </div>
+            <div class="top-nav-right">
+                <i class="fas fa-user fa-lg" ></i>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-firmname">
+                    <div class="name">
+                        whitehatjunior <i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="edit">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="sidebar-profile">
+                    <div class="get-cross">
+                    <div>Get Started</div>
+                    <div class="get-cross-option"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="steps">
+                        Next:Add a Profile Photo
+                    </div>
+                    <div class="bar">
+                        <div class="complete"></div>
+                    </div>
+                </div>
+                <div class="sidebar-list">
+                    <ul>
+                        <li class="list item">
+                            <i class="far fa-comment-dots"></i>  Threads
+                        </li>
+                        <li>
+                            <i class="fas fa-at"></i>  Mentions & reactions
+                        </li>
+                        <li>
+                            <i class="fas fa-layer-group"></i>  Slack Connect
+                        </li>
+                        <li class="more">
+                            <i class="fas fa-ellipsis-v"></i>  More
+                        </li>
+                        <li class="more-option">
+                            <div class="flex-div">
+                                <i class="fas fa-caret-right"></i> <span style="width:140px">Channels</span>
+                                <span class="other-options">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <ul class="option-list">
+                                <li>
+                                    <i class="fas fa-hashtag"></i> announcements
+                                </li>
+                                <li>
+                                    <i class="fas fa-lock"></i> team-frontend-devs
+                                </li>
+                                <li>
+                                    <i class="far fa-plus-square"></i> Add channels
+                                </li>
+                            </ul>
+                            
+                        </li>
+                        <li class="more-option">
+                            <div class="flex-div">
+                                <i class="fas fa-caret-right"></i> <span style="width:140px">Direct Message</span>
+                                <span class="other-options">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <ul class="option-list">
+                                <li>
+                                    <i class="fas fa-user fa-m"></i> User 1
+                                </li>
+                                <li>
+                                    <i class="fas fa-user fa-m"></i> User 2
+                                </li>
+                                <li>
+                                    <i class="fas fa-user fa-m"></i> user 3
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="more-option">
+                            <div class="flex-div">
+                                <i class="fas fa-caret-right"></i> <span style="width:140px">Apps</span>
+                                <span class="other-options">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                    <i class="fas fa-plus"></i>
+                                </span>
+                            </div>
+                            <ul class="option-list">
+                                <li>
+                                    <i class="far fa-plus-square"></i> Add Apps
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="username">
+                    <span><i class="fas fa-user fa-m"></i></span>
+                    <span>Username</span>
+                    <span> <i class="fas fa-caret-down"></i></span>
+                </div>
+                <div class="add-bookmark">
+                    <span><i class="fas fa-plus"></i></span>
+                    <span>Add a bookmark</span>
+                </div>
+                <div class="message-space">
+                    <div class="login-user">
+                        <i class="fas fa-user fa-2x"></i> UserName(you)    
+                        <!-- <i class="fas fa-circle fa-xs" style="color:rgb(108, 202, 108)"></i> -->
+                    </div>
+                    <div class="msg">
+                        <span>This is your space.</span> Draft messages, list your to-dos, or keep links and files handy. You can also talk to yourself here, but please bear in mind you’ll have to supply both sides of the conversation.
+                    </div>
+                    <div class="send-message">
+                        <input placeholder="Jot Something Down...."/>
+                        <div class="input-options">
+                            <div class="options-left-side">
+                                <div style="border-right:1px solid black;"><i class="temp fas fa-bolt"></i></div>
+                                <div class="tempo"><i class="temp fas fa-bold"></i></div>
+                                <div class="tempo"><i class="temp fas fa-italic"></i></div>
+                                <div class="tempo"><i class="temp fas fa-strikethrough"></i></div>
+                                <div class="tempo"><i class="temp fas fa-code"></i></div>
+                                <div class="tempo"><i class="temp fas fa-link"></i></div>
+                                <div class="tempo"><i class="temp fas fa-list-ol"></i></div>
+                                <div class="tempo"><i class="temp fas fa-list"></i></div>
+                                <div class="tempo"><i class="temp fas fa-stream"></i></div>
+                                <div class="tempo"><i class="temp fas fa-code-branch"></i></div>
+                            </div>
+                            <div class="options-right-side">
+                                <div class="tempo"><i class="temp fas fa-heading"></i></div>
+                                <div class="tempo"><i class="temp fas fa-at"></i></div>
+                                <div class="tempo"><i class="temp far fa-smile"></i></div>
+                                <div class="tempo"><i class="temp fas fa-paperclip"></i></div>
+                                <div class="tempo"><i class="temp far fa-paper-plane"></i></div>
+                                <div style="border-left:1px solid black;"><i class="temp fas fa-angle-down"></i></div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-menu">
+            <ul>
+                <li>
+                    <div class="profile-username">
+                        <i class="fas fa-user fa-2x" style="height:100%"></i>
+                        <div class="name-status">
+                            <div style="font-weight:900">User Name</div>
+                            <div><i class="fas fa-circle fa-xs" style="color:rgb(108, 202, 108)"></i> <span style="font-size:12px">Active</span></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input placeholder="Update your status"/>
+                </li>
+                <li>
+                    set yourself as Away
+                </li>
+                <li>
+                    Pause Notifications
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <i class="far fa-id-card"></i> Edit Profile
+                </li>
+                <li>
+                    View Profile
+                </li>
+                <li>
+                    Preferences
+                </li>
+            </ul>
+            <div style="padding:5px;margin:20px" class="sign-out">Sign Out of whitehatjunior</div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
